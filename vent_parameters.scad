@@ -15,10 +15,20 @@ hose_attachment_od                          = 99;           // Use for 4 inch ho
 
 
 // Precision of rendering, final rendering values do take a bit but look nice
-fnn                                         = 40;       // For editing
-radiusExtrudefn                             = 5;        // For editing
-//fnn                                         = 300;    // For final rendering
-//radiusExtrudefn                             = 50;     // For final rendering
+
+// Final rendering values
+/*
+$fa                                         = 1;
+$fs                                         = 0.2;
+fnn                                         = 30;       // Value used by RoundAnything library
+radiusExtrudefn                             = 40;       // Value used by RoundAnything library
+*/
+
+// Edit rendering values
+$fa                                         = 3;
+$fs                                         = 1;
+fnn                                         = 12;       // Value used by RoundAnything library
+radiusExtrudefn                             = 10;       // Value used by RoundAnything library
 
 
 // Controls the opening hole into the Creator Pro 2
@@ -82,7 +92,7 @@ interface_clip_pipe_section_angle_to_connect= 60;
 
 // Utility parameters
 epsilon                                     = 0.01;
-$fn                                         = fnn;
+//$fn                                         = fnn;
 cube_subtract_size                          = 500;
 
 
